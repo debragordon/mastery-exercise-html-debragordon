@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+body {
+  background: darkgrey;
+}
+
+/*****FONT*****/
+h5 {
+  color: lightgrey;
+}
+
+h1 {
+  border: 1px dotted lightgray;
+}
+
+h3 {
+  padding-top: 3px;
+}
+
+footer {
+  font-size: .75em;
+}
+
+/*****IMAGE*****/
+img {
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.product {
+  background: white; /*COMMENT THIS OUT or DELETE at the end*/
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
