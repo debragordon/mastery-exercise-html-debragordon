@@ -1,37 +1,76 @@
+/*****DOC*****/
 * {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  box-sizing: border-box;
 }
 
-body {
-  background: darkgrey;
+.page-wrap {
+  width: 95%;
+  margin: auto;
 }
 
-/*****FONT*****/
-h5 {
-  color: lightgrey;
-}
-
+/*****ELEMENTS*****/
 h1 {
   border: 1px dotted lightgray;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 h3 {
-  padding-top: 3px;
+  padding-top: 5px;
+  font-size: 1.075em;
 }
 
-footer {
+h5 {
+  color: lightgrey;
   font-size: .75em;
 }
 
-/*****IMAGE*****/
-img {
-  max-width: 30%;
-  max-height: 30%;
+footer {
+  font-size: .8em;
+  font-style: italic;
 }
 
+section {
+  display: block;
+}
+
+p {
+  text-align: justify;
+}
+
+article {
+  vertical-align: top;
+}
+
+img {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+}
+
+/*****CLASSES*****/
 .product {
-  background: white; /*COMMENT THIS OUT or DELETE at the end*/
   border: 1px solid lightblue;
   border-radius: 5px;
+  display: inline-block;
+  max-width: 30%;
+  margin: 5px;
+}
+
+.container {
+  padding: 5px;
+}
+
+.availabilty {
+  padding: 5px;
+  color: yellow;
+  background: darkgrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
