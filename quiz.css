@@ -1,0 +1,76 @@
+/*****DOC*****/
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  box-sizing: border-box;
+}
+
+.page-wrap {
+  width: 95%;
+  margin: auto;
+}
+
+/*****ELEMENTS*****/
+h1 {
+  border: 1px dotted lightgray;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+h3 {
+  padding-top: 5px;
+  font-size: 1.075em;
+}
+
+h5 {
+  color: lightgrey;
+  font-size: .75em;
+}
+
+footer {
+  font-size: .8em;
+  font-style: italic;
+}
+
+section {
+  display: block;
+}
+
+p {
+  text-align: justify;
+}
+
+article {
+  vertical-align: top;
+}
+
+img {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+}
+
+/*****CLASSES*****/
+.product {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 30%;
+  margin: 5px;
+}
+
+.container {
+  padding: 5px;
+}
+
+.availabilty {
+  padding: 5px;
+  color: yellow;
+  background: darkgrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
